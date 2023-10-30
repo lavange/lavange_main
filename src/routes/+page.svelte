@@ -13,6 +13,7 @@
   .coming-soon {
     font-size: 5rem;
     font-weight: 700;
+    text-align: center;
   }
 
   .coming-soon:hover {
