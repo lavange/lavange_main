@@ -1,6 +1,7 @@
 <script>
   import HeaderNavMenu from "./HeaderNavMenu.svelte";
   import { header_nav_menu_open } from "../helper/store";
+  import HamburgerMenuIcon from "./svg/HamburgerMenuIcon.svelte";
 </script>
 
 <header class="bg-indigo-900 text-white">
@@ -18,21 +19,7 @@
     >
     <button
       on:click={() => ($header_nav_menu_open = true)}
-      class="block lg:hidden"
-      ><svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 48 48"
-        ><path
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="4"
-          d="M7.95 11.95h32m-32 12h32m-32 12h32"
-        /></svg
-      ></button
+      class="block lg:hidden"><HamburgerMenuIcon /></button
     >
   </div>
 </header>

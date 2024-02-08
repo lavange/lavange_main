@@ -15,7 +15,7 @@
 
 <section id="technologies" class=" bg-white">
   <div class="max-w-7xl mx-auto py-8  px-4 7xl:px-0">
-    <h1 class="text-4xl font-semibold text-center mb-8">Technologies</h1>
+    <h1 class="text-3xl lg:text-4xl font-semibold text-center mb-8">Technologies</h1>
     <div class="flex justify-center items-center gap-16 flex-wrap">
       <ReactIcon />
       <NextjsIcon />

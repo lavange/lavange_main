@@ -21,7 +21,7 @@
       <div
         class="p-8 bg-gradient-to-b from-indigo-500 to-indigo-300 rounded-lg text-white flex flex-col justify-center text-center"
       >
-        <h1 class="text-4xl font-semibold mb-4">
+        <h1 class="text-2xl lg:text-4xl font-semibold mb-4">
           Transform Your Vision into Reality
         </h1>
         <p class="text-lg">

@@ -21,8 +21,8 @@
   <div
     class="max-w-7xl mx-auto py-8 flex flex-col justify-center h-full px-4 7xl:px-0"
   >
-    <h1 class="text-4xl font-semibold text-center mb-8">Our Services</h1>
-    <div class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+    <h1 class="text-3xl lg:text-4xl font-semibold text-center mb-8">Our Services</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each services as service}
         <article
           class="cursor-pointer hover:bg-white hover:shadow-xl rounded-lg p-4 text-center"
