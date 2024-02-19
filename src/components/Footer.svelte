@@ -16,7 +16,7 @@
       <div id="contact">
         <h1 class="text-xl mb-2 font-semibold">Contact</h1>
         <p>Send your queries at below email address</p>
-        <p>lavange.info[at]gmail.com</p>
+        <a href="mailto:business@lavange.in">business[at]lavange.in</a>
       </div>
       <div>
         <h1 class="text-xl mb-2 font-semibold">Follow Us</h1>
@@ -27,6 +27,6 @@
     </div>
   </div>
   <div class="py-2">
-    <p class="text-center">© 2023 Lavange Pvt. Ltd. All rights reserved.</p>
+    <p class="text-center">© 2024 Lavange Pvt. Ltd. All rights reserved.</p>
   </div>
 </footer>
