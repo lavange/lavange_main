@@ -13,13 +13,13 @@
   console.log(form);
 </script>
 
-<section id="quote" class="">
+<section id="quote" class="bg-secondary-500 bg-img relative h-screen">
   <div
     class="max-w-7xl mx-auto py-16 flex flex-col justify-center h-full px-4 7xl:px-0"
   >
-    <div class="grid grid-cols-1 lg:grid-cols-2 bg-white">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
       <div
-        class="p-8 bg-gradient-to-b from-indigo-500 to-indigo-300 rounded-lg text-white flex flex-col justify-center text-center"
+        class="p-8 bg-gradient-to-b bg-[#4541ebcc] rounded-tl-lg rounded-bl-lg text-white flex flex-col justify-center text-center"
       >
         <h1 class="text-2xl lg:text-4xl font-semibold mb-4">
           Transform Your Vision into Reality
@@ -29,62 +29,62 @@
           personalized quote and let's make your dreams a reality together.
         </p>
       </div>
-      <div class="p-8">
-        <form method="POST" on:sub>
+      <div class="p-8 bg-[#ffffff4d] rounded-tr-lg rounded-br-lg">
+        <form method="POST">
           <div class="mb-4">
             <label
               for="name"
-              class="block text-gray-500 text-sm font-semibold mb-2">Name</label
+              class="block text-white text-sm font-semibold mb-2">Name</label
             >
             <input
               type="text"
               name="name"
               placeholder="Full Name"
-              class="border border-gray-300 rounded-lg w-full py-3 px-3 text-gray-500 leading-tight focus:outline-none focus:"
+              class="border-b-4 border-primary-500 placeholder-white rounded-lg w-full py-3 px-3 bg-[#ffffff4d] text-white leading-tight focus:outline-none focus:"
               required
             />
           </div>
           <div class="mb-4">
             <label
               for="email"
-              class="block text-gray-500 text-sm font-semibold mb-2"
+              class="block text-white text-sm font-semibold mb-2"
               >Email</label
             >
             <input
               type="email"
               name="email"
               placeholder="Email Address"
-              class="border border-gray-300 rounded-lg w-full py-3 px-3 text-gray-500 leading-tight focus:outline-none focus:"
+              class="border-b-4 border-primary-500 placeholder-white rounded-lg w-full py-3 px-3 bg-[#ffffff4d] text-white leading-tight focus:outline-none focus:"
               required
             />
           </div>
           <div class="mb-4">
             <label
               for="service"
-              class="block text-gray-500 text-sm font-semibold mb-2"
+              class="block text-white text-sm font-semibold mb-2"
               >Service</label
             >
             <select
               name="service"
-              class="border border-gray-300 rounded-lg w-full py-3 px-3 text-gray-500 leading-tight focus:outline-none"
+              class="border-b-4 border-primary-500  placeholder-white rounded-lg w-full py-3 px-3 bg-[#ffffff4d] text-white leading-tight focus:outline-none"
             >
-              <option selected>Web Development</option>
-              <option>App Development</option>
-              <option>IT Consultation</option>
-              <option>Other</option>
+              <option selected class="text-primary-500">Web Development</option>
+              <option class="text-primary-500">App Development</option>
+              <option class="text-primary-500">IT Consultation</option>
+              <option class="text-primary-500">Other</option>
             </select>
           </div>
           <div class="mb-4">
             <label
               for="message"
-              class="block text-gray-500 text-sm font-semibold mb-2"
+              class="block text-white text-sm font-semibold mb-2"
             >
               Your Message</label
             >
             <textarea
               name="message"
               placeholder="Message"
-              class="border border-gray-300 rounded-lg w-full py-3 px-3 text-gray-500 leading-tight focus:outline-none focus:"
+              class="border-b-4 border-primary-500 placeholder-white rounded-lg w-full py-3 px-3 bg-[#ffffff4d] text-white leading-tight focus:outline-none focus:"
               required
             />
           </div>
@@ -103,3 +103,12 @@
     </div>
   </div>
 </section>
+
+<style>
+  .bg-img {
+    background-image: url("$lib/assets/images/wave.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>

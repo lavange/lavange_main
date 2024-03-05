@@ -1,8 +1,13 @@
 <script>
+  import InstagramIcon from "./svg/InstagramIcon.svelte";
   import LinkedinIcon from "./svg/LinkedinIcon.svelte";
+  import TwitterIcon from "./svg/TwitterIcon.svelte";
 </script>
 
-<footer class="bg-indigo-500 text-white pt-8">
+<footer class="bg-secondary-500 text-white pt-8 relative">
+  <div class="shadow-[0_0_250px_100px_rgba(68,65,235,1)] absolute bottom-0 right-0 ">
+
+  </div>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div id="about">
@@ -20,9 +25,18 @@
       </div>
       <div>
         <h1 class="text-xl mb-2 font-semibold">Follow Us</h1>
+        <div class="flex gap-4">
         <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
           <LinkedinIcon /></a
         >
+        <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
+          <TwitterIcon /></a
+        >
+        <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
+          <InstagramIcon /></a
+        >
+                  
+      </div>
       </div>
     </div>
   </div>

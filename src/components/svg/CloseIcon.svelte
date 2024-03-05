@@ -1,5 +1,5 @@
 <script>
-  let class_ = "h-8 w-8 text-gray-800";
+  let class_ = "h-8 w-8";
 
   export { class_ as class };
 </script>
