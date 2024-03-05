@@ -29,10 +29,10 @@
         <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
           <LinkedinIcon /></a
         >
-        <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
+        <a target="_blank" href="https://twitter.com/lavangeofficial">
           <TwitterIcon /></a
         >
-        <a target="_blank" href="https://www.linkedin.com/company/lavange-official/">
+        <a target="_blank" href="https://www.instagram.com/lavange.official/">
           <InstagramIcon /></a
         >
                   
