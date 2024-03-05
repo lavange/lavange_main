@@ -13,15 +13,15 @@
   import FlutterIcon from "../svg/FlutterIcon.svelte";
 </script>
 
-<section id="technologies" class=" bg-white">
+<section id="technologies" class=" bg-secondary-500">
   <div class="max-w-7xl mx-auto py-8  px-4 7xl:px-0">
-    <h1 class="text-3xl lg:text-4xl font-semibold text-center mb-8">Technologies</h1>
-    <div class="flex justify-center items-center gap-16 flex-wrap">
+    <h1 class="text-3xl lg:text-4xl font-semibold text-center mb-8 text-white">Technologies</h1>
+    <div class="flex text-white justify-center items-center gap-16 flex-wrap">
       <ReactIcon />
       <NextjsIcon />
       <AngularIcon />
       <SvelteIcon />
-      <SveltekitIcon />
+      <!-- <SveltekitIcon /> -->
       <BootstrapIcon />
       <FlutterIcon/>
       <DjangoIcon />

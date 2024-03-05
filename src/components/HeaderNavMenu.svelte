@@ -5,10 +5,10 @@
 
 
 <div
-  class="fixed top-0 left-0 h-screen w-screen bg-white z-50"
+  class="fixed top-0 left-0 h-screen w-screen bg-secondary-500 text-white z-50"
   class:hidden={!$header_nav_menu_open}
 >
-  <button class="absolute top-8 right-8" on:click={() => ($header_nav_menu_open = false)}><CloseIcon /></button
+  <button class="absolute top-8 right-8 text-white" on:click={() => ($header_nav_menu_open = false)}><CloseIcon /></button
   >
   <nav class="flex flex-col justify-center items-center h-full gap-4">
     <a on:click={() => ($header_nav_menu_open = false)} class="text-xl" href="/"
@@ -36,3 +36,4 @@
     >
   </nav>
 </div>
+

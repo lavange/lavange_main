@@ -1,16 +1,23 @@
 <section
-  class="hero-section bg-gradient-to-b from-indigo-900 from-10% to-indigo-300 text-white"
+  class="hero-section bg-secondary-500 bg-img text-white relative"
 >
+  <div class="shadow-[0_0_250px_100px_rgba(68,65,235,1)] absolute top-0 left-0">
+
+  </div>
+  <div class="shadow-[0_0_250px_100px_rgba(68,65,235,1)] absolute bottom-0 right-0 z-30">
+
+  </div>
   <div class="bg-img h-full">
     <div
       class="max-w-7xl mx-auto flex flex-col items-center justify-center h-full"
     >
       <h1
-        class="text-3xl md:text-5xl font-semibold text-wrap text-center w-4/5 md:w-2/3 lg:w-1/2 mb-6"
+        class="text-3xl md:text-4xl font-semibold text-wrap text-center w-4/5 md:w-2/3 lg:w-1/2 mb-6"
       >
-        Your One-Stop Technology Partner Is <span class="text-indigo-400"
-          >Lavange</span
-        >!
+      Your One Stop Technology
+      Partner Is Lavange!
+        
+      
       </h1>
       <!-- <p class=" text-center w-1/2 mb-8">
       More thann 19 years of experience inn helping mid to fortune 100
@@ -20,11 +27,11 @@
       <div class="flex gap-4 justify-center mb-8">
         <a
           href="#quote"
-          class="border border-white bg-white text-indigo-900 font-semibold rounded-lg px-4 py-2"
+          class="block border bg-primary-500 font-bold border-none rounded-lg px-4 py-2 hover:shadow-[0_0_250px_50px_rgba(68,65,235,1)]"
         >
           Get Started</a
         >
-        <a href="#services" class="border border-white rounded-lg px-4 py-2"
+        <a href="#services" class="block bg-transparent text-primary-500  font-bold border-2  border-primary-500 rounded-lg px-4 py-2 hover:shadow-[0_0_250px_50px_rgba(68,65,235,1)]"
           >Services</a
         >
       </div>
@@ -52,17 +59,22 @@
     </div> -->
     </div>
   </div>
+
+  <div class="shadow-[0_0_250px_100px_rgba(12,11,21,0.5)]  absolute bottom-0 left-0 right-0 z-30">
+
+  </div>
+
 </section>
 
 <style>
   .hero-section {
-    height: calc(100vh - 73.6px);
+    height: calc(100vh - 0px);
   }
 
-  /* .bg-img {
-    background-image: url("../../assets/images/hero.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  } */
+  .bg-img {
+    background-image: url("$lib/assets/images/grid.svg");
+    background-position:top;
+    background-repeat: repeat;
+    /* background-size: 100% 100%; */
+  }
 </style>
